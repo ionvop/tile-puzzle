@@ -7,15 +7,15 @@ import datetime
 
 def main() -> None:
     if os.path.exists("Project.sb3"):
-        if not os.path.isdir("project"):
+        if not os.path.isdir("assets"):
             update()
 
         os.remove("Project.sb3")
 
     zipf = zipfile.ZipFile("Project.sb3", "w")
 
-    for file in os.listdir("project/"):
-        path = os.path.join("project/", file)
+    for file in os.listdir("assets/"):
+        path = os.path.join("assets/", file)
 
         if os.path.isdir(path):
             continue
@@ -41,11 +41,11 @@ def main() -> None:
 
 
 def update() -> None:
-    if os.path.isdir("project"):
-        shutil.rmtree("project")
+    if os.path.isdir("assets"):
+        shutil.rmtree("assets")
 
     zipf = zipfile.ZipFile("Project.sb3", "r")
-    zipf.extractall("project")
+    zipf.extractall("assets")
     zipf.close()
 
 
