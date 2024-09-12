@@ -1,5 +1,5 @@
 # tile-puzzle
-A tile puzzle game written in Turbowarp.
+A tile puzzle game written in Scratch using Turbowarp.
 
 ## Requirements
 - Turbowarp
