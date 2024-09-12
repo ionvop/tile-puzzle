@@ -1,2 +1,9 @@
 # tile-puzzle
-A Scratch project written in Turbowarp but everything is extracted to make it look professional to unsuspecting people
+A tile puzzle game written in Turbowarp.
+
+## Requirements
+- Turbowarp
+- Python 3.5+
+
+## Installation
+Run `setup.bat` in the same directory as this file.
