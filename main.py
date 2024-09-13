@@ -48,7 +48,7 @@ def update() -> None:
     zipf = zipfile.ZipFile("Project.sb3", "r")
     zipf.extractall("assets")
     zipf.close()
-    json.dump(json.load(open('file.json')), open('file.json', 'w'), indent=4)
+    json.dump(json.load(open("assets/project.json")), open("assets/project.json", "w"), indent=4)
 
 
 if __name__ == "__main__":
