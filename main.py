@@ -31,6 +31,7 @@ def main() -> None:
     try:
         while True:
             if last_modified != os.path.getmtime("Project.sb3"):
+                print(f"Updating at {datetime.datetime.now()}")
                 update()
                 print(f"Updated at {datetime.datetime.now()}")
                 last_modified = os.path.getmtime("Project.sb3")
