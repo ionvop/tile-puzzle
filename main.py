@@ -3,6 +3,7 @@ import zipfile
 import time
 import shutil
 import datetime
+import json
 
 
 def main() -> None:
@@ -47,6 +48,7 @@ def update() -> None:
     zipf = zipfile.ZipFile("Project.sb3", "r")
     zipf.extractall("assets")
     zipf.close()
+    json.dump(json.load(open('file.json')), open('file.json', 'w'), indent=4)
 
 
 if __name__ == "__main__":
