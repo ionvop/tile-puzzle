@@ -30,7 +30,7 @@
                 ],
                 "uM%SD3=9^wuA?l%uK??t": [
                     "Current Target Easy",
-                    "[[1,0,0],[1,1,0],[1,0,0]]"
+                    "[[0,0,0],[0,0,1],[0,1,1]]"
                 ],
                 "?A|+gEY,UtS6(agJNni-": [
                     "Current Matrix Easy",
@@ -1520,7 +1520,7 @@
                     "text": "Configuration for https://turbowarp.org/\nYou can move, resize, and minimize this comment, but don't edit it by hand. This comment can be deleted to remove the stored settings.\n{\"framerate\":60,\"runtimeOptions\":{\"maxClones\":Infinity,\"miscLimits\":false,\"fencing\":false},\"width\":360,\"height\":640} // _twconfig_"
                 }
             },
-            "currentCostume": 1,
+            "currentCostume": 2,
             "costumes": [
                 {
                     "name": "backdrop1",
@@ -17828,7 +17828,7 @@
             ],
             "sounds": [],
             "volume": 100,
-            "layerOrder": 3,
+            "layerOrder": 4,
             "visible": false,
             "x": -80,
             "y": -290,
@@ -26769,7 +26769,7 @@
             ],
             "sounds": [],
             "volume": 100,
-            "layerOrder": 4,
+            "layerOrder": 3,
             "visible": false,
             "x": 0,
             "y": 0,
@@ -29464,7 +29464,7 @@
             "width": 0,
             "height": 0,
             "x": 65,
-            "y": -135,
+            "y": 0,
             "visible": false,
             "sliderMin": 0,
             "sliderMax": 100,
@@ -29482,7 +29482,7 @@
             "width": 0,
             "height": 0,
             "x": 65,
-            "y": -94,
+            "y": 0,
             "visible": false,
             "sliderMin": 0,
             "sliderMax": 100,
